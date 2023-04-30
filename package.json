@@ -1,0 +1,33 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinayakshahdeo/store.git"
+  },
+  "keywords": [
+    "node",
+    "mongo"
+  ],
+  "author": "vinayak shahdeo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinayakshahdeo/store/issues"
+  },
+  "homepage": "https://github.com/vinayakshahdeo/store#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^7.1.0"
+  }
+}
